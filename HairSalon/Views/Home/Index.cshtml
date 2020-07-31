@@ -2,6 +2,17 @@
   Layout = "_Layout";
 }
 
-<h1>Eau Claire's Stylist Client Helper</h1>
-<p>@Html.ActionLink("See all stylists", "Index", "stylists")</p>
-<p>@Html.ActionLink("See all clients", "Index", "clients")</p>
+<div class="card text-center">
+  <img src="~/img/salon.jpg" class="card-img-top" alt="Eau Claire's Salon">
+  <div class="card-body">
+    <h5 class="card-title">Eau Claire's Salon</h5>
+    <p class="card-text">Organize, manage and track the business dealings of the Salon</p>
+    <button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "stylists")'">See all Stylists</button>
+    <button class="btn btn-success btn-lg" onclick="location.href='@Url.Action("Index", "clients")'">See all Clients</button>
+  </div>
+  <div class="card-footer text-muted">
+    Last Update: 7/31/2020
+  </div>
+</div>
+
+<img src="/wwwroot/img/salon.jpg" class="card-img-top" alt="Eau Claire's Salon">
