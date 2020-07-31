@@ -33,7 +33,7 @@ _You've been referred by Pierre to his friend Claire who is the owner of a hair 
   CREATE TABLE \`Stylists\` (  
     \`StylistId\` int(11) NOT NULL AUTO_INCREMENT,  
     \`Name\` varchar(255) DEFAULT NULL,  
-    \`Description\` varchar(255) DEFAULT NULL,
+    \`Specialty\` varchar(255) DEFAULT NULL,
   PRIMARY KEY (\`StylistId\`)  
 )  ENGINE=InnoDB DEFAULT CHARSET=utf8mb4   COLLATE=utf8mb4_0900_ai_ci;
 
