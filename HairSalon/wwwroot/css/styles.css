@@ -2,3 +2,26 @@ body {
   background-color: black;
   margin-top: 75px;
 }
+
+.card-body {
+  background-color: rgba(167, 204, 207, 0.795);
+}
+
+.card-footer {
+  background-color: rgb(219, 219, 219);
+}
+
+h1 {
+  color: white;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+h3 {
+  color: white;
+}
+
+li {
+  color: white;
+  margin-top: 5px;
+}
