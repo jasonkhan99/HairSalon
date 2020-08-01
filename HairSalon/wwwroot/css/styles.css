@@ -25,3 +25,21 @@ li {
   color: white;
   margin-top: 5px;
 }
+
+h4 {
+  color: white;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+span {
+  margin-right: 5px;
+}
+
+.two {
+  margin-right: 30px
+}
